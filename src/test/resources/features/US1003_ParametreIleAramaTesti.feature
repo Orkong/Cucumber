@@ -16,7 +16,7 @@
       And   sayfayi kapatir
 
 
-      @wip
+
     Scenario: TC09 parametre ile arama yapilabilmeli
       Given kullanici Testotomasyon sayfasina gider
       And   "iphone" icin arama yapar
