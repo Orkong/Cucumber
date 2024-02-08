@@ -9,6 +9,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import pages.TestOtomasyonPage;
 import utilities.ConfigReader;
@@ -84,6 +85,9 @@ public class TestotomasyonStepdefinitions {
     public void kullanici_anasayfaya_gider(String configdenIstenenUrl) {
         Driver.getDriver().get(ConfigReader.getProperty(configdenIstenenUrl));
     }
+
+
+
     @Then("account butonuna basar")
     public void account_butonuna_basar() {
         testOtomasyonPage.accountLink.click();

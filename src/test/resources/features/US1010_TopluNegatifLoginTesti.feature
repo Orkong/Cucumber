@@ -1,6 +1,6 @@
 
   Feature: US1010 kullanici verilen yanlis bilgilerler giris yapamaz
-
+    @smoke
     Scenario Outline: TC18 yanli bilgilerle giris yapilmadigini test eder
 
 

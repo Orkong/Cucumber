@@ -1,5 +1,5 @@
 Feature: US1009 Kullanici verilen listedeki tum urunleri aratir
-
+  @e2e
   Scenario Outline: TC17 Kullanici listedeki tum urunleri var oldugunu test eder
     # aranacak urunler phone, java, dress, baby, iphone ve samsung
 
